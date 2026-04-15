@@ -1,0 +1,1881 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ═══ SEO META ════════════════════════════════════════════ -->
+  <title>Lip Blushing in Delhi | Elora's PMU & Korean Esthetics</title>
+  <meta name="description" content="Premium Korean Lip Blushing in Delhi at Elora's PMU. Natural, semi-permanent lip colour that lasts 12–24 months. Book your free consultation today." />
+  <meta name="keywords" content="lip blushing Delhi, lip blush tattoo Delhi, Korean PMU Delhi, permanent lip makeup Delhi, lip pigmentation Delhi, PMU studio Delhi" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://eloraspmu.com/" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Lip Blushing in Delhi | Elora's PMU & Korean Esthetics" />
+  <meta property="og:description" content="Premium Korean-style Lip Blushing in Delhi. Wake up with perfect lips every day." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://eloraspmu.com/" />
+
+  <!-- ═══ FONTS ════════════════════════════════════════════════ -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Jost:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+
+  <style>
+  /* ══════════════════════════════════════════════════════════
+     DESIGN TOKENS
+  ══════════════════════════════════════════════════════════ */
+  :root {
+    /* Palette */
+    --beige:        #F7F3EF;
+    --beige-dark:   #EDE3D8;
+    --brown:        #5A4636;
+    --brown-mid:    #7A5C48;
+    --brown-dark:   #2E221B;
+    --black:        #111111;
+    --accent:       #E85A8C;
+    --accent-soft:  #F3A6BE;
+    --accent-pale:  #FDE8F0;
+    --white:        #FFFFFF;
+    --warm-grey:    #8E8178;
+    --border:       rgba(90,70,54,0.12);
+    --border-light: rgba(90,70,54,0.07);
+
+    /* Typography */
+    --ff-display: 'Cormorant Garamond', serif;
+    --ff-head:    'Playfair Display', serif;
+    --ff-body:    'Jost', sans-serif;
+
+    /* Radius */
+    --r-sm:   6px;
+    --r-md:   14px;
+    --r-lg:   28px;
+    --r-pill: 999px;
+
+    /* Shadows */
+    --shadow-soft: 0 8px 40px rgba(46,34,27,0.10);
+    --shadow-card: 0 2px 20px rgba(46,34,27,0.07);
+    --shadow-lift: 0 12px 48px rgba(46,34,27,0.14);
+
+    /* Layout */
+    --max-w: 1100px;
+    --pad:   clamp(1.2rem, 5vw, 2.5rem);
+
+    /* Nav height (used for offset) */
+    --nav-h: 68px;
+  }
+
+  /* ══════════════════════════════════════════════════════════
+     RESET
+  ══════════════════════════════════════════════════════════ */
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: var(--ff-body);
+    background: var(--beige);
+    color: var(--brown);
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+  img { max-width: 100%; display: block; }
+  a   { text-decoration: none; color: inherit; }
+  ul  { list-style: none; }
+
+  /* ══════════════════════════════════════════════════════════
+     LAYOUT UTILITIES
+  ══════════════════════════════════════════════════════════ */
+  .container {
+    width: 100%;
+    max-width: var(--max-w);
+    margin-inline: auto;
+    padding-inline: var(--pad);
+  }
+  .section { padding-block: clamp(3.5rem, 10vw, 6rem); }
+  .section--alt { background: var(--beige-dark); }
+  .text-center { text-align: center; }
+  .text-center .section-sub { margin-inline: auto; }
+
+  /* ══════════════════════════════════════════════════════════
+     TYPOGRAPHY
+  ══════════════════════════════════════════════════════════ */
+  .eyebrow {
+    display: block;
+    font-family: var(--ff-body);
+    font-size: .7rem;
+    font-weight: 500;
+    letter-spacing: .22em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: .75rem;
+  }
+  .section-title {
+    font-family: var(--ff-display);
+    font-size: clamp(1.9rem, 5vw, 3rem);
+    font-weight: 400;
+    line-height: 1.18;
+    color: var(--brown-dark);
+    margin-bottom: 1rem;
+  }
+  .section-sub {
+    font-size: .95rem;
+    line-height: 1.78;
+    color: var(--warm-grey);
+    max-width: 560px;
+  }
+
+  /* ══════════════════════════════════════════════════════════
+     BUTTONS
+  ══════════════════════════════════════════════════════════ */
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    padding: .82rem 1.65rem;
+    border-radius: var(--r-pill);
+    font-family: var(--ff-body);
+    font-size: .84rem;
+    font-weight: 500;
+    letter-spacing: .06em;
+    border: none;
+    cursor: pointer;
+    transition: transform .22s ease, box-shadow .22s ease, background .22s ease, color .22s ease;
+    white-space: nowrap;
+  }
+  .btn:hover { transform: translateY(-2px); }
+  .btn-primary {
+    background: var(--accent);
+    color: var(--white);
+    box-shadow: 0 6px 22px rgba(232,90,140,0.28);
+  }
+  .btn-primary:hover {
+    background: var(--brown-dark);
+    color: var(--accent);
+    box-shadow: 0 8px 30px rgba(46,34,27,0.25);
+  }
+  .btn-outline {
+    background: transparent;
+    color: var(--accent);
+    border: 1.5px solid var(--accent);
+  }
+  .btn-outline:hover {
+    background: var(--accent);
+    color: var(--white);
+    box-shadow: 0 6px 22px rgba(232,90,140,0.22);
+  }
+  .btn-dark {
+    background: var(--brown-dark);
+    color: var(--white);
+    box-shadow: 0 6px 22px rgba(46,34,27,0.3);
+  }
+  .btn-dark:hover {
+    background: var(--accent);
+    color: var(--white);
+    box-shadow: 0 8px 28px rgba(232,90,140,0.35);
+  }
+
+  /* ══════════════════════════════════════════════════════════
+     NAV
+  ══════════════════════════════════════════════════════════ */
+  .nav {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 900;
+    height: var(--nav-h);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding-inline: var(--pad);
+    background: rgba(247,243,239,0.88);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border-bottom: 1px solid var(--border-light);
+    transition: box-shadow .3s;
+  }
+  .nav.scrolled { box-shadow: var(--shadow-soft); }
+
+  .nav-logo {
+    font-family: var(--ff-display);
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--brown-dark);
+    letter-spacing: .02em;
+    flex-shrink: 0;
+  }
+  .nav-logo span { color: var(--accent); font-style: italic; }
+
+  .nav-cta {
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+  }
+  .nav-cta .btn { padding: .58rem 1.15rem; font-size: .78rem; }
+
+  /* ══════════════════════════════════════════════════════════
+     HERO
+  ══════════════════════════════════════════════════════════ */
+  .hero {
+    min-height: 100svh;
+    padding-top: var(--nav-h);
+    position: relative;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    align-items: center;
+  }
+  @media (min-width: 768px) {
+    .hero { grid-template-columns: 1fr 1fr; }
+  }
+
+  .hero-bg {
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(ellipse 90% 70% at 65% 35%, rgba(232,90,140,0.09) 0%, transparent 65%),
+      radial-gradient(ellipse 50% 60% at 10% 80%, rgba(232,90,140,0.05) 0%, transparent 60%),
+      var(--beige);
+    z-index: 0;
+  }
+  /* Decorative blobs */
+  .hero-blob {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(70px);
+    opacity: .22;
+    pointer-events: none;
+    z-index: 0;
+  }
+  .hero-blob-1 { width: 420px; height: 420px; background: var(--accent-soft); top: -80px; right: -100px; }
+  .hero-blob-2 { width: 280px; height: 280px; background: var(--accent-pale);  bottom: 5%;  left: -80px; }
+
+  /* ── Hero Left ───── */
+  .hero-content {
+    position: relative;
+    z-index: 2;
+    padding: clamp(2.5rem, 6vw, 5rem) var(--pad) clamp(2rem, 5vw, 4rem);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+  }
+  @media (min-width: 768px) {
+    .hero-content { padding-right: 2rem; }
+  }
+
+  .hero-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: .45rem;
+    background: rgba(232,90,140,0.09);
+    border: 1px solid rgba(232,90,140,0.22);
+    border-radius: var(--r-pill);
+    padding: .38rem 1rem;
+    font-size: .72rem;
+    font-weight: 500;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 1.4rem;
+  }
+  .hero-tag::before { content: '✦'; font-size: .55rem; }
+
+  .hero-h1 {
+    font-family: var(--ff-display);
+    font-size: clamp(2.8rem, 8vw, 5rem);
+    font-weight: 300;
+    line-height: 1.08;
+    color: var(--brown-dark);
+    margin-bottom: 1.2rem;
+  }
+  .hero-h1 em {
+    font-style: italic;
+    color: var(--accent);
+    display: block;
+  }
+  .hero-sub {
+    font-size: clamp(.88rem, 2.2vw, 1rem);
+    line-height: 1.82;
+    color: var(--warm-grey);
+    max-width: 430px;
+    margin-bottom: 2rem;
+  }
+  .hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .75rem;
+    margin-bottom: 2.5rem;
+  }
+  .hero-stats {
+    display: flex;
+    gap: 2rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--border);
+  }
+  .stat-num {
+    font-family: var(--ff-display);
+    font-size: 1.65rem;
+    font-weight: 500;
+    color: var(--accent);
+    line-height: 1;
+  }
+  .stat-label {
+    font-size: .7rem;
+    letter-spacing: .08em;
+    color: var(--warm-grey);
+    margin-top: .2rem;
+    text-transform: uppercase;
+  }
+
+  /* ── Hero Right ───── */
+  .hero-visual {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem var(--pad) 2rem 1rem;
+  }
+  .hero-img-wrap {
+    position: relative;
+    width: 100%;
+    max-width: 440px;
+  }
+  .hero-img-main {
+    width: 100%;
+    aspect-ratio: 4/5;
+    border-radius: var(--r-lg) var(--r-lg) var(--r-lg) 6px;
+    object-fit: cover;
+    box-shadow: var(--shadow-lift);
+    display: block;
+    background: linear-gradient(145deg, #e8c4b6 0%, #d4917a 50%, #c06e5a 100%);
+  }
+
+  /* Floating Badges */
+  .badge-float {
+    position: absolute;
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: var(--r-md);
+    padding: .75rem 1rem;
+    box-shadow: var(--shadow-card);
+  }
+  .badge-float-1 {
+    bottom: 10%;
+    left: -6%;
+    display: flex;
+    align-items: center;
+    gap: .65rem;
+  }
+  .badge-float-2 {
+    top: 7%;
+    right: -6%;
+    text-align: center;
+    min-width: 80px;
+  }
+  .badge-icon  { font-size: 1.4rem; flex-shrink: 0; }
+  .badge-text  { font-size: .72rem; color: var(--warm-grey); line-height: 1.45; }
+  .badge-text strong { display: block; font-size: .88rem; color: var(--brown-dark); font-weight: 600; }
+  .badge-num   { font-family: var(--ff-display); font-size: 1.55rem; color: var(--accent); font-weight: 500; line-height: 1; }
+  .badge-label { font-size: .62rem; letter-spacing: .1em; color: var(--warm-grey); text-transform: uppercase; }
+
+  /* ══════════════════════════════════════════════════════════
+     BEFORE / AFTER
+  ══════════════════════════════════════════════════════════ */
+  .ba-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.4rem;
+    margin-top: 2.5rem;
+  }
+  @media (min-width: 600px) { .ba-grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (min-width: 900px) { .ba-grid { grid-template-columns: repeat(3, 1fr); } }
+
+  .ba-card {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: var(--r-md);
+    overflow: hidden;
+    box-shadow: var(--shadow-card);
+    transition: transform .25s ease, box-shadow .25s ease;
+  }
+  .ba-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-lift); }
+
+  .ba-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 210px;
+    position: relative;
+  }
+  /* The white divider line between before/after */
+  .ba-images::after {
+    content: '';
+    position: absolute;
+    top: 0; bottom: 0; left: 50%;
+    width: 2px;
+    background: var(--white);
+    z-index: 2;
+  }
+  .ba-img {
+    position: relative;
+    overflow: hidden;
+  }
+  /* "Before" / "After" pill labels */
+  .ba-img::after {
+    content: attr(data-label);
+    position: absolute;
+    bottom: 8px; left: 8px;
+    background: rgba(46,34,27,.55);
+    color: var(--white);
+    font-size: .6rem;
+    font-weight: 500;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    padding: 3px 9px;
+    border-radius: var(--r-pill);
+    backdrop-filter: blur(4px);
+  }
+  .ba-img img { width: 100%; height: 100%; object-fit: cover; }
+  /* Fallback tints when no image loads */
+  .ba-img-before { background: linear-gradient(135deg, #d4bfb5 0%, #b8a099 100%); }
+  .ba-img-after  { background: linear-gradient(135deg, #c97b63 0%, #a85a45 100%); }
+
+  .ba-info { padding: 1rem 1.1rem; }
+  .ba-info h4 {
+    font-family: var(--ff-display);
+    font-size: 1.05rem;
+    font-weight: 500;
+    color: var(--brown-dark);
+    margin-bottom: .3rem;
+  }
+  .ba-info p { font-size: .76rem; color: var(--warm-grey); line-height: 1.55; }
+
+  /* ══════════════════════════════════════════════════════════
+     BENEFITS
+  ══════════════════════════════════════════════════════════ */
+  .benefits-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+    margin-top: 2.5rem;
+  }
+  @media (min-width: 540px) { .benefits-grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (min-width: 900px) { .benefits-grid { grid-template-columns: repeat(3, 1fr); } }
+
+  .benefit-card {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: var(--r-md);
+    padding: 1.7rem 1.5rem;
+    box-shadow: var(--shadow-card);
+    transition: transform .25s ease, box-shadow .25s ease;
+  }
+  .benefit-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-lift); }
+
+  .benefit-icon {
+    width: 46px; height: 46px;
+    background: var(--accent-pale);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--accent);
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+  }
+  .benefit-card h3 {
+    font-family: var(--ff-display);
+    font-size: 1.08rem;
+    font-weight: 500;
+    color: var(--brown-dark);
+    margin-bottom: .45rem;
+  }
+  .benefit-card p { font-size: .83rem; line-height: 1.72; color: var(--warm-grey); }
+
+  /* ══════════════════════════════════════════════════════════
+     PROCEDURE STEPS
+  ══════════════════════════════════════════════════════════ */
+  .proc-wrap {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+  @media (min-width: 900px) {
+    .proc-wrap { grid-template-columns: 1fr 1fr; align-items: start; }
+  }
+
+  .steps-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .step {
+    display: grid;
+    grid-template-columns: 56px 1fr;
+    gap: 1.2rem;
+    padding-bottom: 2.2rem;
+    position: relative;
+  }
+  /* Connector line */
+  .step:not(:last-child)::before {
+    content: '';
+    position: absolute;
+    left: 27px;
+    top: 56px;
+    bottom: 0;
+    width: 2px;
+    background: linear-gradient(to bottom, rgba(232,90,140,.35) 0%, transparent 100%);
+  }
+  .step-num {
+    width: 56px; height: 56px;
+    flex-shrink: 0;
+    background: var(--white);
+    border: 2px solid var(--accent-soft);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--ff-display);
+    font-size: 1.15rem;
+    font-weight: 500;
+    color: var(--accent);
+    position: relative;
+    z-index: 1;
+    transition: background .25s, border-color .25s;
+  }
+  .step:hover .step-num { background: var(--accent); color: var(--white); border-color: var(--accent); }
+  .step-body { padding-top: .9rem; }
+  .step-body h3 {
+    font-family: var(--ff-display);
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--brown-dark);
+    margin-bottom: .35rem;
+  }
+  .step-body p { font-size: .84rem; line-height: 1.75; color: var(--warm-grey); }
+
+  /* ══════════════════════════════════════════════════════════
+     PRICING
+  ══════════════════════════════════════════════════════════ */
+  .pricing-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.3rem;
+    margin-top: 2.5rem;
+    align-items: start;
+  }
+  @media (min-width: 640px) { .pricing-grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (min-width: 900px) { .pricing-grid { grid-template-columns: repeat(3, 1fr); } }
+
+  .pricing-card {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: var(--r-md);
+    padding: 2rem 1.6rem;
+    box-shadow: var(--shadow-card);
+    position: relative;
+    overflow: hidden;
+    transition: transform .25s ease, box-shadow .25s ease;
+  }
+  .pricing-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-lift); }
+  .pricing-card.featured {
+    background: var(--brown-dark);
+    border-color: var(--accent);
+    box-shadow: 0 8px 40px rgba(46,34,27,.25);
+  }
+
+  .popular-badge {
+    position: absolute;
+    top: 18px; right: -22px;
+    background: var(--accent);
+    color: var(--white);
+    font-size: .62rem;
+    font-weight: 600;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    padding: .32rem 2.2rem;
+    transform: rotate(38deg);
+    pointer-events: none;
+  }
+
+  .plan-name {
+    font-size: .7rem;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    color: var(--warm-grey);
+    margin-bottom: .9rem;
+    display: block;
+  }
+  .pricing-card.featured .plan-name { color: var(--accent-soft); }
+
+  .price {
+    font-family: var(--ff-display);
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: var(--accent);
+    line-height: 1;
+  }
+  .price sup { font-size: 1rem; vertical-align: top; margin-top: .55rem; display: inline-block; }
+  .pricing-card.featured .price { color: var(--accent-soft); }
+
+  .price-label {
+    font-size: .75rem;
+    color: var(--warm-grey);
+    margin-top: .3rem;
+    margin-bottom: 1.2rem;
+    display: block;
+  }
+  .pricing-card.featured .price-label { color: rgba(255,255,255,0.45); }
+
+  .divider {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 1.2rem 0;
+  }
+  .pricing-card.featured .divider { border-color: rgba(255,255,255,0.1); }
+
+  .pricing-card ul {
+    display: flex;
+    flex-direction: column;
+    gap: .6rem;
+    margin-bottom: 1.5rem;
+  }
+  .pricing-card ul li {
+    display: flex;
+    align-items: flex-start;
+    gap: .55rem;
+    font-size: .83rem;
+    color: var(--warm-grey);
+    line-height: 1.5;
+  }
+  .pricing-card ul li::before {
+    content: '✓';
+    color: var(--accent);
+    font-weight: 700;
+    flex-shrink: 0;
+    margin-top: .05rem;
+  }
+  .pricing-card.featured ul li { color: rgba(255,255,255,0.7); }
+  .pricing-card.featured ul li::before { color: var(--accent-soft); }
+
+  /* ══════════════════════════════════════════════════════════
+     TESTIMONIALS
+  ══════════════════════════════════════════════════════════ */
+  .testi-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+    margin-top: 2.5rem;
+  }
+  @media (min-width: 600px) { .testi-grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (min-width: 900px) { .testi-grid { grid-template-columns: repeat(3, 1fr); } }
+
+  .testi-card {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: var(--r-md);
+    padding: 1.7rem 1.5rem;
+    box-shadow: var(--shadow-card);
+    position: relative;
+    transition: transform .25s, box-shadow .25s;
+  }
+  .testi-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-lift); }
+
+  .testi-quote {
+    position: absolute;
+    top: 10px; left: 16px;
+    font-family: var(--ff-display);
+    font-size: 3.5rem;
+    line-height: 1;
+    color: var(--accent-pale);
+    pointer-events: none;
+    user-select: none;
+  }
+  .testi-stars {
+    color: #F4A44A;
+    font-size: .85rem;
+    letter-spacing: .06em;
+    margin-bottom: .8rem;
+    margin-top: 1rem;
+  }
+  .testi-text {
+    font-size: .87rem;
+    line-height: 1.75;
+    color: var(--warm-grey);
+    font-style: italic;
+    margin-bottom: 1.3rem;
+  }
+  .testi-author {
+    display: flex;
+    align-items: center;
+    gap: .75rem;
+  }
+  .testi-avatar {
+    width: 38px; height: 38px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: .88rem;
+    font-weight: 600;
+    color: var(--white);
+    flex-shrink: 0;
+  }
+  .testi-name { font-size: .86rem; font-weight: 500; color: var(--brown-dark); }
+  .testi-loc  { font-size: .72rem; color: var(--warm-grey); }
+
+  /* ══════════════════════════════════════════════════════════
+     FAQ
+  ══════════════════════════════════════════════════════════ */
+  .faq-list {
+    max-width: 720px;
+    margin: 2.5rem auto 0;
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+  }
+  .faq-item {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: var(--r-md);
+    overflow: hidden;
+    transition: box-shadow .25s;
+  }
+  .faq-item.open { box-shadow: var(--shadow-card); }
+  .faq-question {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1.1rem 1.4rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-family: var(--ff-display);
+    font-size: 1.02rem;
+    font-weight: 400;
+    color: var(--brown-dark);
+    text-align: left;
+  }
+  .faq-icon {
+    width: 28px; height: 28px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background: var(--accent-pale);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--accent);
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1;
+    transition: transform .3s, background .3s, color .3s;
+  }
+  .faq-item.open .faq-icon { transform: rotate(45deg); background: var(--accent); color: var(--white); }
+  .faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .35s ease, padding .3s ease;
+    padding: 0 1.4rem;
+    font-size: .86rem;
+    line-height: 1.78;
+    color: var(--warm-grey);
+  }
+  .faq-item.open .faq-answer { max-height: 220px; padding-bottom: 1.3rem; }
+
+  /* ══════════════════════════════════════════════════════════
+     LEAD FORM / BOOK SECTION
+  ══════════════════════════════════════════════════════════ */
+  .form-section {
+    background: linear-gradient(140deg, var(--brown-dark) 0%, #1a100a 100%);
+    padding-block: clamp(3.5rem, 10vw, 6rem);
+    position: relative;
+    overflow: hidden;
+  }
+  .form-section::before {
+    content: '';
+    position: absolute;
+    width: 600px; height: 600px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(232,90,140,0.1) 0%, transparent 70%);
+    top: -180px; right: -120px;
+    pointer-events: none;
+  }
+  .form-section::after {
+    content: '';
+    position: absolute;
+    width: 350px; height: 350px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(232,90,140,0.07) 0%, transparent 70%);
+    bottom: -100px; left: -80px;
+    pointer-events: none;
+  }
+
+  .form-wrap {
+    position: relative;
+    z-index: 2;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    align-items: center;
+  }
+  @media (min-width: 768px) { .form-wrap { grid-template-columns: 1fr 1fr; } }
+
+  /* Left copy */
+  .form-copy .eyebrow { color: var(--accent-soft); }
+  .form-copy .section-title { color: var(--white); }
+  .form-copy .section-sub { color: rgba(247,243,239,0.65); }
+  .perks {
+    margin-top: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: .7rem;
+  }
+  .perk {
+    display: flex;
+    align-items: center;
+    gap: .65rem;
+    font-size: .83rem;
+    color: rgba(247,243,239,0.75);
+  }
+  .perk::before { content: '✦'; color: var(--accent-soft); font-size: .6rem; flex-shrink: 0; }
+
+  /* Right form card */
+  .form-card {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(232,90,140,0.2);
+    border-radius: var(--r-md);
+    padding: 2.2rem 2rem;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+  }
+  .form-card h3 {
+    font-family: var(--ff-display);
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: var(--white);
+    margin-bottom: 1.5rem;
+  }
+  .form-group { margin-bottom: 1rem; }
+  .form-group label {
+    display: block;
+    font-size: .72rem;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: rgba(247,243,239,0.55);
+    margin-bottom: .4rem;
+  }
+  .form-group input,
+  .form-group select {
+    width: 100%;
+    padding: .85rem 1rem;
+    background: rgba(255,255,255,0.07);
+    border: 1px solid rgba(232,90,140,0.22);
+    border-radius: var(--r-sm);
+    color: var(--white);
+    font-family: var(--ff-body);
+    font-size: .9rem;
+    outline: none;
+    transition: border-color .22s, background .22s;
+    appearance: none;
+  }
+  .form-group input::placeholder { color: rgba(247,243,239,0.3); }
+  .form-group input:focus,
+  .form-group select:focus { border-color: var(--accent); background: rgba(255,255,255,0.1); }
+  .form-group select { cursor: pointer; }
+  .form-group select option { background: var(--brown-dark); color: var(--white); }
+
+  .form-submit {
+    width: 100%;
+    margin-top: .5rem;
+    padding: 1rem;
+    background: var(--accent);
+    color: var(--white);
+    border: none;
+    border-radius: var(--r-pill);
+    font-family: var(--ff-body);
+    font-size: .9rem;
+    font-weight: 500;
+    letter-spacing: .07em;
+    cursor: pointer;
+    transition: background .22s, transform .22s, box-shadow .22s;
+    box-shadow: 0 6px 22px rgba(232,90,140,0.35);
+  }
+  .form-submit:hover {
+    background: var(--white);
+    color: var(--accent);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 28px rgba(232,90,140,0.4);
+  }
+  .form-note {
+    font-size: .72rem;
+    color: rgba(247,243,239,0.35);
+    text-align: center;
+    margin-top: .8rem;
+  }
+
+  /* Success state */
+  .success-msg {
+    display: none;
+    text-align: center;
+    padding: 1.5rem .5rem;
+    color: var(--white);
+  }
+  .success-msg .check { font-size: 2.8rem; margin-bottom: .75rem; }
+  .success-msg h4 {
+    font-family: var(--ff-display);
+    font-size: 1.4rem;
+    margin-bottom: .5rem;
+  }
+  .success-msg p { font-size: .85rem; color: rgba(247,243,239,0.65); line-height: 1.7; }
+
+  /* ══════════════════════════════════════════════════════════
+     FOOTER
+  ══════════════════════════════════════════════════════════ */
+  footer {
+    background: var(--brown-dark);
+    color: rgba(255,255,255,0.55);
+    padding: 3rem var(--pad) 2rem;
+  }
+  .footer-inner {
+    max-width: var(--max-w);
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.6rem;
+    text-align: center;
+  }
+  footer .logo {
+    font-family: var(--ff-display);
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: rgba(247,243,239,0.9);
+  }
+  footer .logo span { color: var(--accent); font-style: italic; }
+  .footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: .4rem 1.5rem;
+  }
+  .footer-links a {
+    font-size: .78rem;
+    color: rgba(255,255,255,0.45);
+    transition: color .2s;
+  }
+  .footer-links a:hover { color: var(--accent); }
+  .footer-social {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+  }
+  .footer-social a {
+    font-size: .8rem;
+    color: rgba(255,255,255,0.45);
+    font-weight: 500;
+    letter-spacing: .06em;
+    transition: color .2s;
+  }
+  .footer-social a:hover { color: var(--accent); }
+  .footer-contact {
+    font-size: .85rem;
+    line-height: 1.9;
+  }
+  .footer-contact a { color: var(--accent); }
+  .footer-contact a:hover { text-decoration: underline; }
+  footer .copyright {
+    font-size: .68rem;
+    color: rgba(255,255,255,0.2);
+    padding-top: .5rem;
+    border-top: 1px solid rgba(255,255,255,0.07);
+    width: 100%;
+    text-align: center;
+  }
+
+  /* ══════════════════════════════════════════════════════════
+     STICKY CTA BAR
+  ══════════════════════════════════════════════════════════ */
+  .sticky-bar {
+    position: fixed;
+    bottom: 0; left: 0; right: 0;
+    z-index: 850;
+    background: var(--white);
+    border-top: 1px solid var(--border);
+    box-shadow: 0 -4px 28px rgba(46,34,27,0.12);
+    padding: .9rem var(--pad);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    transform: translateY(105%);
+    transition: transform .4s cubic-bezier(.25,.8,.25,1);
+  }
+  .sticky-bar.visible { transform: translateY(0); }
+
+  .sticky-bar-text { flex: 1; min-width: 0; }
+  .sticky-bar-text strong {
+    display: block;
+    font-size: .9rem;
+    font-weight: 600;
+    color: var(--brown-dark);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .sticky-bar-text span { font-size: .78rem; color: var(--warm-grey); }
+
+  .sticky-bar-actions {
+    display: flex;
+    gap: .6rem;
+    flex-shrink: 0;
+  }
+  .sticky-bar-actions .btn { padding: .62rem 1.1rem; font-size: .78rem; }
+
+  @media (max-width: 480px) {
+    .sticky-bar { flex-direction: column; align-items: stretch; gap: .7rem; }
+    .sticky-bar-actions { justify-content: stretch; }
+    .sticky-bar-actions .btn { flex: 1; }
+  }
+
+  /* ══════════════════════════════════════════════════════════
+     WHATSAPP FLOATING BUTTON (PREMIUM ROTATING)
+  ══════════════════════════════════════════════════════════ */
+  .wa-float {
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    z-index: 860;
+    width: 78px;
+    height: 78px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .wa-circle {
+    width: 78px;
+    height: 78px;
+    border-radius: 50%;
+    border: 1.5px solid var(--brown-dark);
+    background: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+    transition: background .3s, border-color .3s;
+    box-shadow: var(--shadow-card);
+  }
+  .wa-float:hover .wa-circle {
+    background: var(--brown-dark);
+    border-color: var(--accent);
+  }
+  .wa-icon {
+    width: 24px;
+    height: 24px;
+    fill: var(--brown-dark);
+    z-index: 2;
+    transition: fill .3s;
+    position: relative;
+  }
+  .wa-float:hover .wa-icon { fill: var(--accent); }
+
+  /* Rotating text ring */
+  .wa-ring {
+    position: absolute;
+    inset: -2px;
+    border-radius: 50%;
+    animation: spin-ring 12s linear infinite;
+  }
+  @keyframes spin-ring { to { transform: rotate(360deg); } }
+
+  /* Individual letters on the ring */
+  .wa-ring span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 7.5px;
+    font-weight: 500;
+    letter-spacing: .05em;
+    color: var(--brown-mid);
+    text-transform: uppercase;
+    transform-origin: 0 -35px;
+    transition: color .3s;
+  }
+  .wa-float:hover .wa-ring span { color: var(--accent); }
+
+  /* ══════════════════════════════════════════════════════════
+     FADE-UP ANIMATION (SCROLL TRIGGERED)
+  ══════════════════════════════════════════════════════════ */
+  .fade-up {
+    opacity: 0;
+    transform: translateY(26px);
+    transition: opacity .6s ease, transform .6s ease;
+  }
+  .fade-up.visible { opacity: 1; transform: translateY(0); }
+
+  /* Stagger children */
+  .ba-grid       .fade-up:nth-child(2),
+  .benefits-grid .fade-up:nth-child(2),
+  .testi-grid    .fade-up:nth-child(2),
+  .pricing-grid  .fade-up:nth-child(2) { transition-delay: .12s; }
+
+  .ba-grid       .fade-up:nth-child(3),
+  .benefits-grid .fade-up:nth-child(3),
+  .testi-grid    .fade-up:nth-child(3),
+  .pricing-grid  .fade-up:nth-child(3) { transition-delay: .24s; }
+
+  .ba-grid       .fade-up:nth-child(4),
+  .benefits-grid .fade-up:nth-child(4) { transition-delay: .36s; }
+
+  .ba-grid       .fade-up:nth-child(5),
+  .benefits-grid .fade-up:nth-child(5) { transition-delay: .48s; }
+
+  .ba-grid       .fade-up:nth-child(6),
+  .benefits-grid .fade-up:nth-child(6) { transition-delay: .56s; }
+
+  /* ══════════════════════════════════════════════════════════
+     NOISE GRAIN OVERLAY (subtle texture)
+  ══════════════════════════════════════════════════════════ */
+  body::after {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    opacity: .016;
+    pointer-events: none;
+    z-index: 9999;
+  }
+  </style>
+</head>
+<body>
+
+  <!-- ══════════════════════════════════════════════════════
+       NAV
+  ══════════════════════════════════════════════════════ -->
+  <nav class="nav" id="mainNav" role="navigation" aria-label="Main navigation">
+    <div class="nav-logo">Elora's <span>PMU</span></div>
+    <div class="nav-cta">
+      <a href="tel:+919877695827" class="btn btn-outline">📞 Call</a>
+      <a href="https://wa.me/919877695827?text=Hi!%20I%20want%20to%20book%20a%20Lip%20Blushing%20consultation."
+         target="_blank" rel="noopener" class="btn btn-primary">Book Now</a>
+    </div>
+  </nav>
+
+
+  <!-- ══════════════════════════════════════════════════════
+       HERO
+  ══════════════════════════════════════════════════════ -->
+  <section class="hero" id="home" aria-label="Hero section">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="hero-blob hero-blob-1" aria-hidden="true"></div>
+    <div class="hero-blob hero-blob-2" aria-hidden="true"></div>
+
+    <!-- LEFT: Content -->
+    <div class="hero-content">
+      <div class="hero-tag">Delhi's Premium Korean PMU Studio</div>
+
+      <h1 class="hero-h1">
+        Perfect Lips.
+        <em>No Makeup Needed.</em>
+      </h1>
+
+      <p class="hero-sub">
+        Experience Korean Lip Blushing in Delhi — a semi-permanent treatment that enhances your natural lip shape, adds soft colour, and gives you effortlessly beautiful lips every day.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#book" class="btn btn-primary">✦ Book Free Consultation</a>
+        <a href="https://wa.me/919877695827?text=Hi!%20I%20want%20to%20know%20more%20about%20Lip%20Blushing."
+           target="_blank" rel="noopener" class="btn btn-outline">WhatsApp Us</a>
+      </div>
+
+      <div class="hero-stats">
+        <div>
+          <div class="stat-num">500+</div>
+          <div class="stat-label">Happy Clients</div>
+        </div>
+        <div>
+          <div class="stat-num">4.9★</div>
+          <div class="stat-label">Google Rating</div>
+        </div>
+        <div>
+          <div class="stat-num">6+ yrs</div>
+          <div class="stat-label">Experience</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- RIGHT: Image -->
+    <div class="hero-visual">
+      <div class="hero-img-wrap">
+        <img
+          class="hero-img-main"
+          src="assets/lipblush.jpg"
+          alt="Lip Blushing results by Elora's PMU in Delhi"
+          loading="eager"
+        />
+
+        <div class="badge-float badge-float-1">
+          <span class="badge-icon">🇰🇷</span>
+          <div class="badge-text">
+            <strong>Korean Technique</strong>
+            Certified Specialist
+          </div>
+        </div>
+
+        <div class="badge-float badge-float-2">
+          <div class="badge-num">18+</div>
+          <div class="badge-label">Months Lasting</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════════════════
+       BEFORE / AFTER
+  ══════════════════════════════════════════════════════ -->
+  <section class="section section--alt" id="results" aria-labelledby="ba-title">
+    <div class="container">
+      <div class="text-center">
+        <p class="eyebrow">Real Client Transformations</p>
+        <h2 class="section-title" id="ba-title">See the Difference</h2>
+        <p class="section-sub">Each treatment is customised to your lip tone, shape, and skin undertone — delivering natural, balanced, and long-lasting results.</p>
+      </div>
+
+      <div class="ba-grid">
+        <!-- Card 1 -->
+        <div class="ba-card fade-up">
+          <div class="ba-images">
+            <div class="ba-img ba-img-before" data-label="Before">
+              <img src="assets/before.jpg" alt="Before lip blushing – uneven tone" loading="lazy" />
+            </div>
+            <div class="ba-img ba-img-after" data-label="After">
+              <img src="assets/after.jpg" alt="After lip blushing – natural pink lips" loading="lazy" />
+            </div>
+          </div>
+          <div class="ba-info">
+            <h4>Natural Nude Enhancement</h4>
+            <p>Neutral pink tone · Balanced shape · Healed finish</p>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="ba-card fade-up">
+          <div class="ba-images">
+            <div class="ba-img ba-img-before" data-label="Before">
+              <img src="assets/before1.jpg" alt="Before lip blushing – dark pigmentation" loading="lazy" />
+            </div>
+            <div class="ba-img ba-img-after" data-label="After">
+              <img src="assets/after1.jpg" alt="After lip blushing – defined berry lips" loading="lazy" />
+            </div>
+          </div>
+          <div class="ba-info">
+            <h4>Berry Tone Definition</h4>
+            <p>Corrected pigmentation · Fuller look · 1 session</p>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="ba-card fade-up">
+          <div class="ba-images">
+            <div class="ba-img ba-img-before" data-label="Before">
+              <img src="assets/before2.jpg" alt="Before lip blushing – dull lips" loading="lazy" />
+            </div>
+            <div class="ba-img ba-img-after" data-label="After">
+              <img src="assets/after2.jpg" alt="After lip blushing – coral lips" loading="lazy" />
+            </div>
+          </div>
+          <div class="ba-info">
+            <h4>Soft Coral Glow</h4>
+            <p>Even tone · Healthy tint · Long-lasting colour</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════════════════
+       BENEFITS
+  ══════════════════════════════════════════════════════ -->
+  <section class="section" id="benefits" aria-labelledby="benefits-title">
+    <div class="container">
+      <div class="text-center">
+        <p class="eyebrow">Why Clients Choose Lip Blushing</p>
+        <h2 class="section-title" id="benefits-title">Effortless Beauty, Every Day</h2>
+        <p class="section-sub">Designed for modern lifestyles — Lip Blushing enhances your natural features while eliminating the need for daily makeup.</p>
+      </div>
+
+      <div class="benefits-grid">
+        <div class="benefit-card fade-up">
+          <div class="benefit-icon">✦</div>
+          <h3>Wake Up Ready</h3>
+          <p>No more lipstick routines. Your lips already have colour, shape, and definition from the moment you wake up.</p>
+        </div>
+        <div class="benefit-card fade-up">
+          <div class="benefit-icon">✦</div>
+          <h3>Tailored To Your Face</h3>
+          <p>Every shade and shape is customised to your skin tone, lip structure, and personal aesthetic.</p>
+        </div>
+        <div class="benefit-card fade-up">
+          <div class="benefit-icon">✦</div>
+          <h3>Soft, Natural Finish</h3>
+          <p>A subtle, Korean-style tint that enhances your lips — never harsh, never artificial.</p>
+        </div>
+        <div class="benefit-card fade-up">
+          <div class="benefit-icon">✦</div>
+          <h3>Smudge-Free Confidence</h3>
+          <p>No fading, no smudging — whether you're eating, working out, or out all day in Delhi's heat.</p>
+        </div>
+        <div class="benefit-card fade-up">
+          <div class="benefit-icon">✦</div>
+          <h3>Long-Lasting Beauty</h3>
+          <p>Enjoy beautifully tinted lips for 12–24 months with minimal maintenance and one touch-up.</p>
+        </div>
+        <div class="benefit-card fade-up">
+          <div class="benefit-icon">✦</div>
+          <h3>Safe & Professional</h3>
+          <p>Performed with certified techniques, premium pigments, and strict hygiene standards every session.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════════════════
+       PROCEDURE
+  ══════════════════════════════════════════════════════ -->
+  <section class="section section--alt" id="procedure" aria-labelledby="proc-title">
+    <div class="container">
+      <div class="proc-wrap">
+        <!-- Left: heading -->
+        <div>
+          <p class="eyebrow">Our Process</p>
+          <h2 class="section-title" id="proc-title">A Safe, Comfortable<br>Experience</h2>
+          <p class="section-sub">Every step is carefully designed to ensure natural results, maximum comfort, and complete safety — from consultation to final touch-up.</p>
+        </div>
+
+        <!-- Right: steps -->
+        <div class="steps-wrap">
+          <div class="step fade-up">
+            <div class="step-num">01</div>
+            <div class="step-body">
+              <h3>Personalised Consultation</h3>
+              <p>We assess your lip tone, shape, and facial features to design a colour and style that enhances your natural beauty. Everything is mapped and approved before we begin.</p>
+            </div>
+          </div>
+          <div class="step fade-up">
+            <div class="step-num">02</div>
+            <div class="step-body">
+              <h3>Comfort Preparation</h3>
+              <p>A medical-grade numbing cream is applied to ensure a comfortable experience. Most clients feel minimal to no discomfort throughout the session.</p>
+            </div>
+          </div>
+          <div class="step fade-up">
+            <div class="step-num">03</div>
+            <div class="step-body">
+              <h3>Precision Lip Blushing</h3>
+              <p>Using sterile, professional PMU equipment, pigment is gently deposited to create a soft, even tint. The session typically takes 90–120 minutes.</p>
+            </div>
+          </div>
+          <div class="step fade-up">
+            <div class="step-num">04</div>
+            <div class="step-body">
+              <h3>Healing & Perfecting Touch-Up</h3>
+              <p>Aftercare guidance is provided to support proper healing. A touch-up session at 6–8 weeks ensures colour balance and long-lasting results.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════════════════
+       PRICING
+  ══════════════════════════════════════════════════════ -->
+  <section class="section" id="pricing" aria-labelledby="pricing-title">
+    <div class="container">
+      <div class="text-center">
+        <p class="eyebrow">Pricing</p>
+        <h2 class="section-title" id="pricing-title">Choose Your Perfect Lip Transformation</h2>
+        <p class="section-sub">All treatments include a complimentary touch-up at 6–8 weeks for optimal results. No hidden charges.</p>
+      </div>
+
+      <div class="pricing-grid">
+        <!-- Essential -->
+        <div class="pricing-card fade-up">
+          <span class="plan-name">Essential Blush</span>
+          <div class="price"><sup>₹</sup>8,999</div>
+          <span class="price-label">For subtle enhancement</span>
+          <hr class="divider" />
+          <ul>
+            <li>Soft natural tint</li>
+            <li>Basic lip shape refinement</li>
+            <li>Comfort numbing included</li>
+            <li>Aftercare kit provided</li>
+            <li>6–8 week touch-up included</li>
+          </ul>
+          <a href="#book" class="btn btn-outline" style="width:100%">Book Consultation</a>
+        </div>
+
+        <!-- Signature (Featured) -->
+        <div class="pricing-card featured fade-up">
+          <div class="popular-badge">Most Chosen</div>
+          <span class="plan-name">Signature Korean Blush</span>
+          <div class="price"><sup>₹</sup>14,999</div>
+          <span class="price-label">Most popular choice</span>
+          <hr class="divider" />
+          <ul>
+            <li>Ombré gradient technique</li>
+            <li>Full lip shape enhancement</li>
+            <li>Premium Korean pigments</li>
+            <li>Long-lasting natural finish</li>
+            <li>Aftercare + numbing included</li>
+            <li>6–8 week touch-up included</li>
+          </ul>
+          <a href="#book" class="btn btn-primary" style="width:100%">Book Now</a>
+        </div>
+
+        <!-- Elite -->
+        <div class="pricing-card fade-up">
+          <span class="plan-name">Elite Lip Sculpt</span>
+          <div class="price"><sup>₹</sup>21,999</div>
+          <span class="price-label">For full transformation</span>
+          <hr class="divider" />
+          <ul>
+            <li>Full ombré + definition layering</li>
+            <li>Advanced symmetry correction</li>
+            <li>Imported premium pigments</li>
+            <li>Enhanced depth &amp; dimension</li>
+            <li>Priority booking access</li>
+            <li>Two touch-ups included</li>
+          </ul>
+          <a href="#book" class="btn btn-outline" style="width:100%">Book Consultation</a>
+        </div>
+      </div>
+
+      <p style="text-align:center; margin-top:1.5rem; font-size:.8rem; color:var(--warm-grey);">
+        Prices may vary depending on lip condition and correction required. Book a consultation for a personalised quote.
+      </p>
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════════════════
+       TESTIMONIALS
+  ══════════════════════════════════════════════════════ -->
+  <section class="section section--alt" id="testimonials" aria-labelledby="testi-title">
+    <div class="container">
+      <div class="text-center">
+        <p class="eyebrow">Client Reviews</p>
+        <h2 class="section-title" id="testi-title">Trusted by Clients Across Delhi</h2>
+        <p class="section-sub">Real experiences from clients who chose Elora's PMU for natural, long-lasting results.</p>
+      </div>
+
+      <div class="testi-grid">
+        <div class="testi-card fade-up">
+          <div class="testi-quote" aria-hidden="true">"</div>
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-text">The results look extremely natural and exactly what I wanted. The entire process was comfortable and very professional. Highly recommend for anyone considering lip blushing.</p>
+          <div class="testi-author">
+            <div class="testi-avatar" style="background:var(--accent)">S</div>
+            <div>
+              <div class="testi-name">Shreya M.</div>
+              <div class="testi-loc">Verified Google Review</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testi-card fade-up">
+          <div class="testi-quote" aria-hidden="true">"</div>
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-text">Very hygienic studio and the artist explained everything step by step. My lips healed beautifully and the colour looks soft and even. Will definitely return!</p>
+          <div class="testi-author">
+            <div class="testi-avatar" style="background:var(--accent-soft)">N</div>
+            <div>
+              <div class="testi-name">Neha K.</div>
+              <div class="testi-loc">Verified Google Review</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testi-card fade-up">
+          <div class="testi-quote" aria-hidden="true">"</div>
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-text">I was nervous before the appointment, but it was almost painless. The final result is subtle, natural, and exactly what I hoped for. 10/10 experience.</p>
+          <div class="testi-author">
+            <div class="testi-avatar" style="background:var(--brown)">R</div>
+            <div>
+              <div class="testi-name">Ritika A.</div>
+              <div class="testi-loc">Verified Google Review</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="text-align:center; margin-top:2rem;">
+        <a href="https://www.google.com/maps/place/Elora's+Permanent+Makeup(PMU)+%26+Korean+Esthetics+-+Delhi/@28.5556732,77.2019725,17z/data=!4m8!3m7!1s0x282a7ee2c39a5821:0xb7615fd84b95c969!8m2!3d28.5556732!4d77.2019725!9m1!1b1!16s%2Fg%2F11vzjzg98w"
+           target="_blank" rel="noopener"
+           style="display:inline-flex; align-items:center; gap:.65rem;
+                  background:var(--white); border:1px solid var(--border);
+                  border-radius:var(--r-pill); padding:.65rem 1.3rem;
+                  font-size:.8rem; color:var(--warm-grey);
+                  transition:box-shadow .22s; box-shadow:var(--shadow-card);">
+          <span style="font-size:1rem; font-weight:800; color:#4285F4;">G</span>
+          <span><strong style="color:var(--brown-dark)">4.9★ Rating</strong> · View All Google Reviews →</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════════════════
+       FAQ
+  ══════════════════════════════════════════════════════ -->
+  <section class="section" id="faq" aria-labelledby="faq-title">
+    <div class="container">
+      <div class="text-center">
+        <p class="eyebrow">Everything You Need to Know</p>
+        <h2 class="section-title" id="faq-title">Still Thinking About It?</h2>
+        <p class="section-sub">Here are answers to the most common questions our clients ask before booking.</p>
+      </div>
+
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            Does Lip Blushing hurt?
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer" role="region">
+            Most clients feel little to no discomfort. A medical-grade numbing cream is applied before the procedure, making the experience very manageable — often described as a light tingling sensation.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            How long do results last?
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer" role="region">
+            Results typically last between 12–24 months depending on your skin and lifestyle. A complimentary touch-up is included to perfect your results, and optional yearly refresh sessions maintain the colour.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            What is the healing process like?
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer" role="region">
+            Healing is quick and manageable. Lips may appear slightly darker for a few days, then gradually soften into a natural shade within 10–14 days. Full healing completes in about 4–6 weeks.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            Is it safe for Indian skin tones?
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer" role="region">
+            Yes. We specialise in working with South Asian skin tones and carefully select pigments that complement your natural undertones for balanced, flattering results.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            Will I still need lipstick?
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer" role="region">
+            Most clients find they no longer need lipstick daily. However, once healed, you can still apply lipstick on top for a more dramatic look whenever you want.
+          </div>
+        </div>
+      </div>
+
+      <div style="text-align:center; margin-top:2.5rem;">
+        <p style="font-size:.9rem; color:var(--warm-grey); margin-bottom:1rem;">Still have questions? Talk directly with our expert.</p>
+        <a href="https://wa.me/919877695827?text=Hi!%20I%20have%20a%20few%20questions%20about%20Lip%20Blushing."
+           target="_blank" rel="noopener" class="btn btn-primary">Ask on WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════════════════
+       LEAD FORM / BOOK
+  ══════════════════════════════════════════════════════ -->
+  <section class="form-section" id="book" aria-labelledby="form-title">
+    <div class="container">
+      <div class="form-wrap">
+
+        <!-- Left copy -->
+        <div class="form-copy">
+          <p class="eyebrow">Book Your Consultation</p>
+          <h2 class="section-title" id="form-title">Your Perfect Lips<br>Start Here</h2>
+          <p class="section-sub">Get expert guidance before you commit. We'll help you choose the right shape, colour, and treatment — tailored entirely to you.</p>
+          <div class="perks">
+            <div class="perk">Free consultation — absolutely no obligation</div>
+            <div class="perk">Quick WhatsApp response within 2 hours</div>
+            <div class="perk">South Delhi studio — address shared on booking</div>
+            <div class="perk">Flexible slots &amp; EMI options available</div>
+          </div>
+        </div>
+
+        <!-- Right form -->
+        <div class="form-card">
+          <h3>Request Your Free Consultation</h3>
+
+          <div id="leadForm">
+            <div class="form-group">
+              <label for="fname">Your Name</label>
+              <input type="text" id="fname" name="name" placeholder="e.g. Priya Sharma" required autocomplete="name" />
+            </div>
+            <div class="form-group">
+              <label for="fphone">WhatsApp Number</label>
+              <input type="tel" id="fphone" name="phone" placeholder="+91 98765 43210" required autocomplete="tel" />
+            </div>
+            <div class="form-group">
+              <label for="fservice">Interested In</label>
+              <select id="fservice" name="service">
+                <option value="">Select an option</option>
+                <option>Essential Blush (₹8,999+)</option>
+                <option>Signature Korean Blush (₹14,999+)</option>
+                <option>Elite Lip Sculpt (₹21,999+)</option>
+                <option>Not sure — need guidance</option>
+              </select>
+            </div>
+            <button type="button" class="form-submit" onclick="submitLead()">
+              Book Free Consultation →
+            </button>
+            <p class="form-note">🔒 Your details are safe with us. No spam, ever.</p>
+          </div>
+
+          <div class="success-msg" id="successMsg">
+            <div class="check">💋</div>
+            <h4>You're Booked In!</h4>
+            <p>We'll message you on WhatsApp shortly to confirm your consultation slot. Talk soon!</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════════════════
+       FOOTER
+  ══════════════════════════════════════════════════════ -->
+  <footer>
+    <div class="footer-inner">
+      <div class="logo">Elora's <span>PMU &amp; Korean Esthetics</span></div>
+
+      <nav class="footer-links" aria-label="Footer navigation">
+        <a href="#home">Home</a>
+        <a href="#results">Results</a>
+        <a href="#benefits">Benefits</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#faq">FAQ</a>
+        <a href="#book">Book Now</a>
+      </nav>
+
+      <div>
+        <span style="display:block; font-size:.7rem; letter-spacing:.18em; color:rgba(255,255,255,0.3); text-transform:uppercase; margin-bottom:.7rem;">Follow Us</span>
+        <div class="footer-social">
+          <a href="https://www.instagram.com/elorasofficial/" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://www.youtube.com/channel/UClwEPnNmFv0Od60ozKyekPg" target="_blank" rel="noopener">YouTube</a>
+          <a href="https://www.facebook.com/people/Eloras-PMU/61559619729341/" target="_blank" rel="noopener">Facebook</a>
+        </div>
+      </div>
+
+      <div class="footer-contact">
+        <p>Premium Lip Blushing Studio · South Delhi</p>
+        <p>
+          <a href="tel:+919877695827">+91 98776 95827</a>
+          &nbsp;·&nbsp;
+          <a href="mailto:info@eloraspmu.com">info@eloraspmu.com</a>
+        </p>
+      </div>
+
+      <p class="copyright">© 2026 Elora's PMU & Korean Esthetics · All rights reserved · Lip Blushing in Delhi</p>
+    </div>
+  </footer>
+
+
+  <!-- ══════════════════════════════════════════════════════
+       STICKY CTA BAR
+  ══════════════════════════════════════════════════════ -->
+  <div class="sticky-bar" id="stickyBar" role="complementary" aria-label="Quick booking actions">
+    <div class="sticky-bar-text">
+      <strong>Premium Lip Blushing in Delhi</strong>
+      <span>Starting ₹8,999 · Free Consultation</span>
+    </div>
+    <div class="sticky-bar-actions">
+      <a href="https://wa.me/919877695827?text=Hi!%20I%20want%20to%20book%20a%20Lip%20Blushing%20consultation."
+         target="_blank" rel="noopener" class="btn btn-outline">WhatsApp</a>
+      <a href="#book" class="btn btn-primary">Book Now</a>
+    </div>
+  </div>
+
+
+  <!-- ══════════════════════════════════════════════════════
+       WHATSAPP FLOAT (Rotating ring)
+  ══════════════════════════════════════════════════════ -->
+  <a class="wa-float"
+     href="https://wa.me/919877695827?text=Hi!%20I%20want%20to%20know%20more%20about%20Lip%20Blushing."
+     target="_blank" rel="noopener"
+     aria-label="Chat on WhatsApp">
+    <div class="wa-circle">
+      <div class="wa-ring" id="waRing" aria-hidden="true"></div>
+      <svg class="wa-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+        <path d="M12 0C5.373 0 0 5.373 0 12c0 2.121.554 4.11 1.523 5.843L.057 23.535a.5.5 0 0 0 .612.612l5.68-1.467A11.947 11.947 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.808 9.808 0 0 1-5.065-1.405l-.364-.216-3.763.971.997-3.659-.237-.376A9.816 9.816 0 0 1 2.182 12C2.182 6.57 6.57 2.182 12 2.182S21.818 6.57 21.818 12 17.43 21.818 12 21.818z"/>
+      </svg>
+    </div>
+  </a>
+
+
+  <!-- ══════════════════════════════════════════════════════
+       SCHEMA.ORG
+  ══════════════════════════════════════════════════════ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BeautySalon",
+    "name": "Elora's PMU & Korean Esthetics",
+    "description": "Premium Lip Blushing studio in Delhi specialising in Korean-style permanent makeup for natural, long-lasting results.",
+    "url": "https://eloraspmu.com",
+    "telephone": "+919877695827",
+    "email": "info@eloraspmu.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "South Delhi",
+      "addressRegion": "Delhi",
+      "addressCountry": "IN"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "28.5556732",
+      "longitude": "77.2019725"
+    },
+    "openingHours": "Mo-Sa 10:00-19:00",
+    "priceRange": "₹₹₹",
+    "sameAs": [
+      "https://www.instagram.com/elorasofficial/",
+      "https://www.facebook.com/people/Eloras-PMU/61559619729341/",
+      "https://www.youtube.com/channel/UClwEPnNmFv0Od60ozKyekPg"
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "120"
+    }
+  }
+  </script>
+
+
+  <!-- ══════════════════════════════════════════════════════
+       JAVASCRIPT
+  ══════════════════════════════════════════════════════ -->
+  <script>
+  /* ── Rotating WA ring text ─────────────────────────────── */
+  (function buildRing() {
+    const ring   = document.getElementById('waRing');
+    if (!ring) return;
+    const text   = 'TALK TO US • WHATSAPP • ';
+    const chars  = text.split('');
+    const total  = chars.length;
+    chars.forEach((ch, i) => {
+      const span = document.createElement('span');
+      span.textContent = ch;
+      const angle = (360 / total) * i;
+      span.style.transform = `rotate(${angle}deg) translateX(35px) rotate(-${angle}deg)`;
+      ring.appendChild(span);
+    });
+  })();
+
+  /* ── Nav + Sticky bar on scroll ────────────────────────── */
+  const nav        = document.getElementById('mainNav');
+  const stickyBar  = document.getElementById('stickyBar');
+
+  window.addEventListener('scroll', () => {
+    const y = window.scrollY;
+    nav.classList.toggle('scrolled', y > 20);
+    stickyBar.classList.toggle('visible', y > 500);
+  }, { passive: true });
+
+  /* ── Intersection Observer (fade-up) ───────────────────── */
+  const io = new IntersectionObserver((entries, obs) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.classList.add('visible');
+        obs.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.1 });
+
+  document.querySelectorAll('.fade-up').forEach(el => io.observe(el));
+
+  /* ── FAQ Accordion ─────────────────────────────────────── */
+  document.querySelectorAll('.faq-question').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const item   = btn.closest('.faq-item');
+      const isOpen = item.classList.contains('open');
+      document.querySelectorAll('.faq-item.open').forEach(i => {
+        i.classList.remove('open');
+        i.querySelector('.faq-question').setAttribute('aria-expanded', 'false');
+      });
+      if (!isOpen) {
+        item.classList.add('open');
+        btn.setAttribute('aria-expanded', 'true');
+      }
+    });
+  });
+
+  /* ── Lead Form ─────────────────────────────────────────── */
+  function submitLead() {
+    const name    = document.getElementById('fname').value.trim();
+    const phone   = document.getElementById('fphone').value.trim();
+    const service = document.getElementById('fservice').value;
+
+    if (!name || !phone) {
+      alert('Please enter your name and phone number.');
+      return;
+    }
+    if (phone.replace(/\D/g,'').length < 8) {
+      alert('Please enter a valid phone number.');
+      return;
+    }
+
+    const msg = encodeURIComponent(
+      `Hi! I'm ${name}.\nI'd like to book a Lip Blushing consultation.\n${service ? 'Interested in: ' + service : ''}\nPhone: ${phone}`
+    );
+    window.open(`https://wa.me/919877695827?text=${msg}`, '_blank');
+
+    document.getElementById('leadForm').style.display  = 'none';
+    document.getElementById('successMsg').style.display = 'block';
+  }
+
+  /* ── Hero entrance animation ───────────────────────────── */
+  document.addEventListener('DOMContentLoaded', () => {
+    const targets = document.querySelectorAll(
+      '.hero-tag, .hero-h1, .hero-sub, .hero-actions, .hero-stats, .hero-img-wrap'
+    );
+    targets.forEach((el, i) => {
+      el.style.cssText += `opacity:0; transform:translateY(22px); transition:opacity .65s ease ${i*0.11}s, transform .65s ease ${i*0.11}s;`;
+      requestAnimationFrame(() => {
+        requestAnimationFrame(() => {
+          el.style.opacity   = '1';
+          el.style.transform = 'translateY(0)';
+        });
+      });
+    });
+  });
+  </script>
+</body>
+</html>
